@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 999;
+    background-color: rgb(164, 164, 239);
+}
+.left{
+    width: 50%;
+}
+.right{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.right ul{
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+}
+.right ul li{
+    padding: 12px;
+    margin: 8px 0;
+}
+.right ul li:hover{
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.right ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    padding-top: 50px;
+    height: 100vh;
+}
+.left1{
+    width: 50%;
+    height: 89.6vh;
+}
+.portfolioimgclass{
+    width: 500px;
+    height: 500px;
+}
+.right1{
+    width: 50%;
+    height: 89.6vh;
+}
+.right1 h1{
+    padding: 12px;
+}
+.right1 p{
+    padding: 12px;
+    font-weight: bolder;
+    font-size: large;
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.logoclass{
+    padding-left: 50px;
+}
+.skill1{
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+}
+.skill2{
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+}
+.skill3{
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+}
+.skill4{
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+}
+.skill5{
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+}
+.skill6{
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+}
+.container2 h3{
+    padding-left: 70px;
+}
+.container2 p{
+    padding: 22px;
+}
+.container3 ul li{
+    padding: 8px;
+}
+.container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+}
+.recommendations1{
+    border: 3px solid black;
+    border-radius: 8px;
+}
+.recommendations2{
+    border: 3px solid black;
+    border-radius: 8px;
+}
+.recommendations3{
+    border: 3px solid black;
+    border-radius: 8px;
+}
+.recommendations4{
+    border: 3px solid black;
+    border-radius: 8px;
+}
+.container4 p{
+    padding: 8px;
+}
+.container5{
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-top: 20px;
+}
+.container5 .inputarea{
+    width: 746px;
+}
+.container5 .submitc{
+    padding-left: 360px;
+}
+.container5 .submitc button{
+    padding: 4px;
+}
+#homeback{
+    background-color: blue;
+    border: 3px solid black;
+    border-radius: 100px;
+    padding: 12px;
+}
+.alignpart{
+    display: flex;
+    flex-direction: row-reverse;
+}
